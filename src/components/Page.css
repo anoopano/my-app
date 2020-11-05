@@ -1,0 +1,19 @@
+.page {
+  height: 90%;
+  width: 85%;
+  background-color: rgb(255, 255, 255);
+
+  margin: 5%;
+  border-radius: 30px;
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 255, 255),
+    rgb(244, 249, 250)
+  );
+}
+@media screen and (min-width: 480px) {
+  .page {
+    width: 100%;
+    background-color: none;
+  }
+}

@@ -1,0 +1,22 @@
+.trainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.trainer__details-logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(219, 219, 143);
+  margin-right: 10px;
+  text-align: center;
+}
+.trainer__details {
+  display: flex;
+  align-items: center;
+}
+.trainer__details-icon {
+    vertical-align: middle;
+}

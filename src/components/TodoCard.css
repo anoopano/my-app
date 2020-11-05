@@ -1,0 +1,23 @@
+.todoCard {
+  display: flex;
+  justify-content: space-around;
+  height: 120px;
+  margin: 15px 0px;
+  border-radius: 8px;
+  color: white;
+  align-items: center;
+}
+.todoCard__warmUp >h4, .todoCard__exercise >h4{
+    font-size: x-large;
+}
+.todoCard__name > h5{
+    width: 40px;
+    height: 25px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding-left: 6px;
+    border-radius: 4px;
+    margin-top: 3px;
+}
